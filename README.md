@@ -1,4 +1,4 @@
-# enpc
+# ENPC
 Epicstorm's NPC Addon
 
 Features:
