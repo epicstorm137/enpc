@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="250" src="https://user-images.githubusercontent.com/67658615/139509334-6dd4c733-1490-4e94-a436-69d168a57b88.png" alt="Material Bread logo">
+  <img width="1000" src="https://user-images.githubusercontent.com/67658615/139510437-5650018d-320d-4f7a-b633-5c3da92602bc.png" alt="Material Bread logo">
 </p>
 
 # ENPC
