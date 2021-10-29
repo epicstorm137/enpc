@@ -1,6 +1,8 @@
+![ENPC](https://user-images.githubusercontent.com/67658615/139509334-6dd4c733-1490-4e94-a436-69d168a57b88.png)
+
 # ENPC
 Epicstorm's NPC Addon
-![ENPC](https://user-images.githubusercontent.com/67658615/139509334-6dd4c733-1490-4e94-a436-69d168a57b88.png)
+
 Features:
 - Customise NPCs with any lua string
 - Change NPC header Text and Model
