@@ -9,6 +9,7 @@ Features:
 - Customise NPCs with any lua string and customise the header and model with "enpc_edit"
 - Save NPCs in data folder with "enpc_save" or clicking the UI button
 - Show all npcs on the map with "enpc_show"
+- Custom UI with the "ENPC Red Theme"
 
 
 Instructions:
