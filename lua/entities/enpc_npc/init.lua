@@ -69,7 +69,7 @@ function enpc:SaveEnts()
 		file.CreateDir("enpcs")
 	end
 
-	file.Write("enpcs/"..game.GetMap()..".txt", util.TableToJSON(data))
+	file.Write("enpcs/"..game.GetMap()..".json", util.TableToJSON(data))
 end
 
 function enpc:RemoveEnts()
