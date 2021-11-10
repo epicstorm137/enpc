@@ -38,11 +38,13 @@ net.Receive("te_edit",function(len,ply)
 		ent:SetNWString("modelname",tbl.model)
 		ent:SetNWString("titletext",tbl.title)
 		ent:SetModel(tbl.model)
+		ep.notify(ply,"NPC Edited!",2.5,Color(94,214,94))
 	end
 end)
 
 net.Receive("te_save",function(len,ply)
 	if ply:IsSuperAdmin() then
+		ep.notify(ply,"Saved: "..#ents.FindByClass("enpc_npc").." entites to "..game.GetMap(),2,Color(110,117,212))
 		enpc:SaveEnts()
 		enpc:RemoveEnts()
 		enpc:LoadEnts()
@@ -57,6 +59,7 @@ net.Receive("te_remove",function(len,ply)
 		if saved == true then
 			enpc:SaveEnts()
 		end
+		ep.notify(ply,"NPC Removed!",2.5,Color(204,117,117))
 	end
 end)
 
@@ -79,8 +82,8 @@ function enpc:RemoveEnts()
 end
 
 function enpc:LoadEnts()
-	if file.Exists("enpcs/"..game.GetMap()..".txt" , "DATA") then
-		local data = file.Read("enpcs/"..game.GetMap()..".txt", "DATA")
+	if file.Exists("enpcs/"..game.GetMap()..".json" , "DATA") then
+		local data = file.Read("enpcs/"..game.GetMap()..".json", "DATA")
 		data = util.JSONToTable(data)
 		for k, v in pairs(data) do
 			local slot = ents.Create("enpc_npc")
