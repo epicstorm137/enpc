@@ -16,6 +16,6 @@ Instructions:
 
 1) Download File
 2) Place in Addons folder of Garry's Mod
-3) Load Server and test all addons!!!
+3) Load Server and test addon!!!
 
 Congratulations on installing Epicstorm's 1st Github Addon!!!!!
